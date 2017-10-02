@@ -2,5 +2,5 @@
 Node.js
 MySQL
 
-#Setup
+# Setup
 node (file location)\server.js
