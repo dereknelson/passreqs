@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "passreqs",
+  "description": "This extension allows the user to view password requirements for a site when focused on the password box",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}
