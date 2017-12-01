@@ -1,7 +1,6 @@
 from django.http import JsonResponse
+
 from .models import Website
-from serializers import WebsiteSerializer
-from django.core import serializers
 
 
 def get_pass_reqs(request):
