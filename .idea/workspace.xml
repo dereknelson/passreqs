@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9bf9f7a4-51d8-415c-bd44-bc88fd22e218" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passreqs-backend/pass_reqs/apps.py" afterPath="$PROJECT_DIR$/passreqs-backend/pass_reqs/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passreqs-backend/pass_reqs/models.py" afterPath="$PROJECT_DIR$/passreqs-backend/pass_reqs/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passreqs-backend/pass_reqs/serializers.py" afterPath="$PROJECT_DIR$/passreqs-backend/pass_reqs/serializers.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passreqs-backend/pass_reqs/views.py" afterPath="$PROJECT_DIR$/passreqs-backend/pass_reqs/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passreqs-backend/passreqs/local_settings.py" afterPath="$PROJECT_DIR$/passreqs-backend/passreqs/local_settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passreqs-backend/passreqs/settings.py" afterPath="$PROJECT_DIR$/passreqs-backend/passreqs/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/passreqs-backend/passreqs/urls.py" afterPath="$PROJECT_DIR$/passreqs-backend/passreqs/urls.py" />
-    </list>
+    <list default="true" id="9bf9f7a4-51d8-415c-bd44-bc88fd22e218" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
