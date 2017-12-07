@@ -12,7 +12,6 @@ xhttp.onreadystatechange = function () {
 xhttp.open("GET", "http://127.0.0.1:8000/api/passreqs/?format=json&"+ window.location.hostname +"=", true);
 xhttp.send();
 
-var that = this;
 $(':password').on('focus', function () {
     console.log($(this).parent());
     if(!$(this).parent().is('#tooltip')) {
@@ -34,7 +33,7 @@ $(':password').focusout(function () {
         if (focus.is(':password') || $(':password').has(focus).length) {
             console.log("still focused");
         } else {
-            $(':password').unwrap();
+            $(':password').unwrap('#tooltip');
         }
     }, 1000);
     hasFocus = false;
