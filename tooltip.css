@@ -20,6 +20,7 @@
     height:0;
 }
 [data-tip]:after {
+    max-width: 250px;
     display:block;
     content:attr(data-tip);
     position:absolute;
@@ -30,13 +31,13 @@
     color:#fff;
     z-index:9;
     font-size: 0.75em;
-    height:18px;
+    height: auto;
     line-height:18px;
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
-    white-space:nowrap;
-    word-wrap:normal;
+    white-space: pre-line;
+    word-wrap: break-word;
 }
 /*[data-tip]:hover:before,*/
 /*[data-tip]:hover:after {*/

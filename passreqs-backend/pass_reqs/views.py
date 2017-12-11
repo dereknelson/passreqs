@@ -1,6 +1,6 @@
 from django.http import JsonResponse
 from .models import Website, PassReqs
-from serializers import WebsiteSerializer, PassreqsSerializer
+from .serializers import WebsiteSerializer, PassreqsSerializer
 from django.core import serializers
 from rest_framework import viewsets
 
