@@ -1,6 +1,5 @@
 # Dependancies
-Node.js
-MySQL
+jquery
 
 # Setup
-node (file location)\server.js
+npm install jquery > chrome://extensions > developer mode > load unpacked extension > this
