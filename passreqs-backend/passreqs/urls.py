@@ -15,15 +15,16 @@ Including another URLconf
 """
 from django.conf.urls import url, include
 from django.contrib import admin
-from pass_reqs.views import WebsiteViewset, PassReqsViewset
+from pass_reqs.views import WebsiteViewset, PassReqsView
 from rest_framework_nested import routers
 
 
 router = routers.DefaultRouter()
 router.register(r'urls', WebsiteViewset)
-router.register(r'passreqs', PassReqsViewset)
+# router.register(r'passreqs', PassReqs.as_view())
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
     url(r'^api/', include(router.urls)),
+    url(r'passreqs/', PassReqsView.as_view())
 ]

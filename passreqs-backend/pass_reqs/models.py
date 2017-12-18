@@ -15,7 +15,7 @@ class Website(models.Model):
 
 
 class PassReqs(models.Model):
-    website            = models.ForeignKey(Website, null=True)
+    website            = models.CharField(max_length=50, null=True)
     length             = models.CharField(max_length=3)
     special_characters = models.DecimalField(decimal_places=0, max_digits=1, default=0)
     capitals           = models.DecimalField(decimal_places=0, max_digits=1, default=0)
