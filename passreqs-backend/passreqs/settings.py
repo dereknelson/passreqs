@@ -29,7 +29,7 @@ PROJECT_ROOT = BASE_DIR = os.path.dirname(PROJECT_APP_PATH)
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 #HAD TO ADD LOCALHOST TO TEST LOCALLY THIS IS SOMETHING WE SHOULD REMEMBER TO CHANGE BACK
-ALLOWED_HOSTS = ["localhost", "127.0.0.1"]
+ALLOWED_HOSTS = ["localhost", "127.0.0.1", "45.55.240.152"]
 
 
 # Application definition
