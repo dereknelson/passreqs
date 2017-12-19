@@ -15,7 +15,7 @@ xhttp.send();
 $(':password').on('focus', function () {
     console.log($(this).parent());
     if(!$(this).parent().is('#tooltip')) {
-        console.log(that.pass_reqs[0]);
+        console.log(that.pass_reqs);
         var string = "Password requirements for " + window.location.hostname + " are; \n" +
             "Minimum Length: " + that.pass_reqs[0].length + "\n" +
             "Capital Required: " + Boolean(parseInt(that.pass_reqs[0].capitals)) + "\n" +
